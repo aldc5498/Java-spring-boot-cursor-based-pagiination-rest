@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cursor_db
+    username: root
+    password: Test1234@
+  jpa:
+    hibernate:
+      ddl-auto: update
